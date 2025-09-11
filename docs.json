@@ -1,13 +1,17 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "name": "SportToken Docs",
   "theme": "mint",
+  "name": "SportToken Docs",
   "colors": {
     "primary": "#3B82F6",
     "light": "#60A5FA",
-    "dark": "#1D4ED8"
+    "dark": "#1E40AF"
   },
   "favicon": "https://sporttoken.app/brand/sporttoken-icon-128.png",
+  "logo": {
+    "light": "https://sporttoken.app/brand/sporttoken-logo.svg",
+    "dark": "https://sporttoken.app/brand/sporttoken-logo.svg"
+  },
   "navigation": {
     "tabs": [
       {
@@ -15,23 +19,24 @@
         "groups": [
           {
             "group": "Overview",
+            "pages": ["overview"]
+          },
+          {
+            "group": "Getting started",
             "pages": [
-              "overview"
+              "getting-started/overview",
+              "getting-started/signup"
             ]
           },
           {
-      "group": "Getting started",
-      "pages": ["getting-started/signup"]
-    },
-    {
-      "group": "Deposits & Withdrawals",
-      "pages": [
-        "deposits/crypto",
-        "deposits/exchange",
-        "deposits/card",
-        "deposits/withdraw"
-      ]
-    },
+            "group": "Deposits & Withdrawals",
+            "pages": [
+              "deposits/crypto",
+              "deposits/coinbase",
+              "deposits/card",
+              "deposits/withdraw"
+            ]
+          },
           {
             "group": "Sports Betting",
             "pages": [
@@ -46,10 +51,9 @@
             ]
           },
           {
-            "group": "Self‑Create Markets",
+            "group": "Self-Create Markets",
             "pages": [
               "scm/overview",
-              "scm/livestream",
               "scm/v1-betting"
             ]
           }
@@ -58,54 +62,29 @@
     ],
     "global": {
       "anchors": [
-        {
-          "anchor": "App",
-          "href": "https://sporttoken.app/betting",
-          "icon": "cursor-arrow-rays"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://discord.gg/eQ9azQ6C",
-          "icon": "discord"
-        }
+        { "anchor": "App", "href": "https://sporttoken.app", "icon": "rocket" },
+        { "anchor": "Community", "href": "https://discord.gg/sporttoken", "icon": "discord" }
       ]
     }
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
   "navbar": {
     "links": [
-      {
-        "label": "Support",
-        "href": "mailto:rajjaladi@sporttoken.app"
-      }
+      { "label": "Support", "href": "mailto:support@sporttoken.app" }
     ],
     "primary": {
       "type": "button",
       "label": "Open App",
-      "href": "https://sporttoken.app/betting"
+      "href": "https://sporttoken.app"
     }
   },
   "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "cursor",
-      "vscode"
-    ]
+    "options": ["copy", "view", "chatgpt", "claude", "perplexity", "cursor", "vscode"]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/SportTokenApp",
-      "github": "https://github.com/rti2384/docs",
-      "discord": "https://discord.gg/8TJ9tGrjRU"
+      "x": "https://x.com/sporttokenapp",
+      "github": "https://github.com/rti2384/sport-token-site",
+      "discord": "https://discord.gg/sporttoken"
     }
   }
 }
-
-
