@@ -20,6 +20,19 @@
             ]
           },
           {
+      "group": "Getting started",
+      "pages": ["getting-started/signup"]
+    },
+    {
+      "group": "Deposits & Withdrawals",
+      "pages": [
+        "deposits/crypto",
+        "deposits/exchange",
+        "deposits/card",
+        "deposits/withdraw"
+      ]
+    },
+          {
             "group": "Sports Betting",
             "pages": [
               "sports-betting/ste-overview",
