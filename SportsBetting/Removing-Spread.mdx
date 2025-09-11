@@ -1,0 +1,24 @@
+---
+title: "Removing the Spread (De‑juicing)"
+description: "Here we will discuss the backend math of our odd calculations."
+---
+
+Suppose a sportsbook offers Team A at \+120 and Team B at −145.
+
+Implied probabilities:
+
+- For \+x odds: $p = 100/(x+100)$
+- For -y odds: $p = y/(100+y)$
+
+Thus:
+
+- $p^*_A = 100/(120+100) \approx 45.45%$%
+- $p^*_B = 145/(145+100) \approx 59.18$%
+- $p^*_A + p^*_B = 104.63$% → embedded vig
+
+Normalize (de-juice):
+
+- $p_A = p^*_A/(p^*_A+p^*_B) \approx 43.44%$%
+- $p_B = p^*_B/(p^*_B+p^*_A) \approx 56.56$%
+
+Converted back to American odds, this is roughly \+131 and -131.

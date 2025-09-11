@@ -1,3 +1,0 @@
-# SportTokenExchange Overview
-
-SportTokenExchange de‑juices sportsbook lines to produce fair odds and backs trades with a single shared liquidity pool per market for instant fills. Exposure caps and share accounting protect LPs while keeping markets open for casual bettors.
