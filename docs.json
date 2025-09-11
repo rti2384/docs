@@ -8,10 +8,6 @@
     "dark": "#1D4ED8"
   },
   "favicon": "https://sporttoken.app/brand/sporttoken-icon-128.png",
-  "logo": {
-    "light": "https://sporttoken.app/brand/sporttoken-logo.svg",
-    "dark": "https://sporttoken.app/brand/sporttoken-logo.svg"
-  }
   "navigation": {
     "tabs": [
       {
