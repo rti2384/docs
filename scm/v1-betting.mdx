@@ -1,0 +1,93 @@
+---
+title: "How it works"
+description: "Here is how all user created markets work. "
+---
+
+V1 system overview
+
+- Market creation: An organizer creates a two‑outcome market (John vs Rob) with event details (start time, rules, descriptions etc). [Create your markets](https://sporttoken.app/create-event)
+
+
+- Deposits: Bettors pick a side (John or Rob) and deposit USDC into that side’s pool. They receive “pool units” representing their share of that side’s pool.
+
+
+- Lock: Bets close at a cutoff (e.g., fight start). Pools are now fixed.
+
+
+- Resolution: The organizer (or a designated resolver) submits the result, with proof.
+
+
+- Payout: The losing pool is transferred into the winning pool and distributed to winners in proportion to their units. 
+
+Basement fight night example
+
+- Event: John vs Rob (two outcomes: “John wins”, “Rob wins”)
+
+Key properties
+
+- Fair by construction: winners share the entire losing pool in proportion to their stake; no fixed margins.
+
+
+- Price transparency: an implied price can be read at any time as
+
+
+- Alice’s share of the John pool = 300 / 450 = 66.67%
+
+
+- Payout = 300 (stake) \+ 66.67% of 550 ≈ 300 \+ 366.67 = 666.67 USDC
+
+
+- Profit = 366.67 USDC
+
+
+- Carla’s share of the John pool = 150 / 450 = 33.33%
+
+
+- Payout = 150 \+ 33.33% of 550 ≈ 150 \+ 183.33 = 333.33 USDC
+
+
+- Profit = 183.33 USDC
+
+
+- Rob backers (Ben, Diego) receive 0 (they lost the pool).
+
+If Rob wins (mirror case)
+
+- The 450 USDC from the John pool is moved to the Rob side.
+
+
+- Winners (Rob backers) are paid pro‑rata:
+
+
+- Ben’s share = 200 / 550 = 36.36%
+
+
+- Payout = 200 \+ 36.36% of 450 ≈ 200 \+ 163.64 = 363.64 USDC
+
+
+- Profit = 163.64 USDC
+
+
+- Diego’s share = 350 / 550 = 63.64%
+
+
+- Payout = 350 \+ 63.64% of 450 ≈ 350 \+ 286.36 = 636.36 USDC
+
+
+- Profit = 286.36 USDC
+
+Implied odds (optional)
+
+- At any time, you can compute an implied probability for John as:
+
+
+- p(John) = RobPool / (JohnPool \+ RobPool) = 550 / 1000 = 0.55 (55%)
+
+
+- And for Rob:
+
+
+- p(Rob) = JohnPool / (JohnPool \+ RobPool) = 450 / 1000 = 0.45 (45%)
+
+
+- These figures are indicative but not binding; the final payout is purely based on the final pool sizes at lock.
