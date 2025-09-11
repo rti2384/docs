@@ -1,0 +1,3 @@
+# Maximum Loss Policy
+
+Per‑market exposure is capped: SportToken will not risk more than **1.5% of vault capital on a single side** of any event. The cap can scale by importance (e.g., larger for the Super Bowl, smaller for low‑interest games). Orders are clipped to available capacity.
