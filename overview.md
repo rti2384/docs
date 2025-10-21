@@ -1,6 +1,6 @@
 # What is SportToken?
 
-SportToken is a sports prediction platform and user‑run marketplace. Users can bet on official games or create their own markets. Our core exchange, SportTokenExchange, removes the sportsbook edge by pricing both sides directly from a shared liquidity pool — delivering fair odds, instant fills, and protected liquidity for LPs.
+SportToken is a sports prediction platform and the first official Sports trading amm. Inspired by Uniswap we implement a unique application of AMMs to sports predictions. Excluding fees and rebates we ensure that both sides of any market gets odds which sum to 100%. 
 
 ## Key Points
 
