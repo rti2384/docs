@@ -19,7 +19,9 @@
         "groups": [
           {
             "group": "Overview",
-            "pages": ["overview"]
+            "pages": [
+              "overview"
+            ]
           },
           {
             "group": "Getting started",
@@ -40,7 +42,6 @@
           {
             "group": "Sports Betting",
             "pages": [
-              "sports-betting/ste-overview",
               "sports-betting/problem",
               "sports-betting/dejuicing",
               "sports-betting/matching-liquidity",
@@ -62,14 +63,25 @@
     ],
     "global": {
       "anchors": [
-        { "anchor": "App", "href": "https://sporttoken.app", "icon": "rocket" },
-        { "anchor": "Community", "href": "https://discord.gg/sporttoken", "icon": "discord" }
+        {
+          "anchor": "App",
+          "href": "https://sporttoken.app",
+          "icon": "rocket"
+        },
+        {
+          "anchor": "Community",
+          "href": "https://discord.gg/sporttoken",
+          "icon": "discord"
+        }
       ]
     }
   },
   "navbar": {
     "links": [
-      { "label": "Support", "href": "mailto:support@sporttoken.app" }
+      {
+        "label": "Support",
+        "href": "mailto:support@sporttoken.app"
+      }
     ],
     "primary": {
       "type": "button",
@@ -78,7 +90,15 @@
     }
   },
   "contextual": {
-    "options": ["copy", "view", "chatgpt", "claude", "perplexity", "cursor", "vscode"]
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {
