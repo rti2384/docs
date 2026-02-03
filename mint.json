@@ -18,12 +18,19 @@
       ]
     },
     {
+      "group": "Parlays",
+      "pages": [
+        "parlays/overview",
+        "parlays/counter-parlays"
+      ]
+    },
+    {
       "group": "Liquidity Pool",
       "pages": [
         "liquidity-pool/overview",
-        "liquidity-pool/fees-and-risk",
         "liquidity-pool/share-price",
-        "liquidity-pool/parlays"
+        "liquidity-pool/positions",
+        "liquidity-pool/fees-and-risk"
       ]
     },
     {
