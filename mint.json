@@ -11,17 +11,25 @@
         "sports-betting/problem",
         "sports-betting/dejuicing",
         "sports-betting/matching-liquidity",
-        "sports-betting/lp-protection",
         "sports-betting/fees",
         "sports-betting/max-loss",
-        "sports-betting/liquidity-advantage"
+        "sports-betting/liquidity-advantage",
+        "sports-betting/lp-protection"
+      ]
+    },
+    {
+      "group": "Liquidity Pool",
+      "pages": [
+        "liquidity-pool/overview",
+        "liquidity-pool/fees-and-risk",
+        "liquidity-pool/share-price",
+        "liquidity-pool/parlays"
       ]
     },
     {
       "group": "Self-Create Markets",
       "pages": [
         "scm/overview",
-        "scm/livestream",
         "scm/v1-betting"
       ]
     }
